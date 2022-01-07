@@ -1,8 +1,49 @@
 .nav {
   background-color: #f9f9fa;
-  padding: 20px 40px;
+  padding: 20px 50px;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  box-sizing: border-box;
 }
 .nav__list {
   display: flex;
   justify-content: space-between;
+}
+
+.nav__link {
+  color: #2e363e;
+  position: relative;
+}
+
+.nav_nofi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 22px;
+  height: 22px;
+  background-color: tomato;
+  border-radius: 11px;
+  position: absolute;
+  bottom: 15px;
+  font-weight: 700;
+  color: white;
+  left: 22px;
+  bottom: 17px;
+}
+
+.nav_dot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 6px;
+  height: 6px;
+  background-color: tomato;
+  border-radius: 3px;
+  position: absolute;
+  font-weight: 700;
+  color: white;
+  left: 35px;
+  bottom: 30px;
 }
