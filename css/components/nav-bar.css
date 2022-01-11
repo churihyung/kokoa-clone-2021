@@ -18,17 +18,7 @@
 }
 
 .nav_nofi {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 22px;
-  height: 22px;
-  background-color: tomato;
-  border-radius: 11px;
   position: absolute;
-  bottom: 15px;
-  font-weight: 700;
-  color: white;
   left: 22px;
   bottom: 17px;
 }

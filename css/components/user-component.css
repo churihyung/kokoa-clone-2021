@@ -5,10 +5,17 @@
   top: 70px;
   z-index: -2;
   align-items: center;
+  justify-content: space-between;
 }
 
 .user-component__column2:last-child {
   color: rgba(0, 0, 0, 0.4);
+}
+
+.user-component__column:last-child {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .user-component2 {
@@ -56,3 +63,7 @@
 .user-component__title__not-bold {
   font-weight: 400;
 }
+
+.user-compnent_time {
+  margin-bottom: 7px;
+  display: block;
